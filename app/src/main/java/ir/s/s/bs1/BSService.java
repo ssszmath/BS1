@@ -109,7 +109,8 @@ public class BSService extends Service implements NetworkView {
 
     void BSTimer(){
 //        40*60*1000
-        new CountDownTimer(1*60*1000, 1000) {
+        //Time 15  Min
+        new CountDownTimer(15*60*1000, 1000) {
 
             public void onTick(long millisUntilFinished) {
 //                Log.v("TTT","S");
